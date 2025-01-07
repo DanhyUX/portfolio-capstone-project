@@ -1,0 +1,290 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#213555;
+    height: 100%;
+    margin-bottom: 250px;
+    }
+
+.bg-header {
+    display: grid;
+   position: absolute;
+   height: 100vh;
+   opacity: 55%;
+}
+
+.header {
+position: relative;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+h1 {
+    font-family: merry;
+    font-size: 2.5rem;
+}
+
+.text   {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.p-header {
+    color: #1c375a; 
+    font-size: 2rem;
+}
+
+.p-header2 {
+    color: #2d353f;
+    font-size: 1.2rem; 
+    width: 750px;
+}
+
+h2 {
+    color: #3E5879 ;
+    font-size: 1.5rem;
+}
+
+
+.skills {
+
+    display: grid ;
+    grid-template-columns: 1;
+    justify-items: center; 
+    align-content: center;
+    margin-bottom: 100px; 
+   }
+
+.ulskills {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+
+}
+
+.certifications {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    }
+
+.box-1 {
+    flex: 1 ;
+
+    height: auto;
+    gap: 20px;
+    
+}
+
+.box-2 {
+    flex: 1 ;
+   
+    height: auto;
+    
+}
+
+.box-3 {
+    flex: 1 ;
+   
+    height: auto;
+    
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    }
+
+#ux {
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#cert {
+    padding-top: 10px;
+}
+
+.profile {
+    height: auto;
+    border-radius: 50%;
+    margin-top: 150px;
+}
+
+footer {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    padding-top: 24px;
+    padding-bottom: 100px;
+    background-color: #3E5879;
+    color: whitesmoke;
+    font-size: large;
+    margin: 0;
+}
+
+.footer-headder {
+    display: 1;
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: #3E5879;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 28px ;
+    padding-top:24px ;
+}
+
+.box-footer {
+    display: 1;
+    justify-content: center;
+    align-items: center;
+   }
+
+.box-footer2 {
+    display: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+BUTTON {
+    padding: 18px;
+    padding-left: 32px;
+    padding-right: 32PX;
+    background-color:#213555 ;
+    border-style: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.imgfo {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+@media (min-width: 318px) and (max-width: 480px) { 
+
+body {
+    margin: 0;
+    padding: 0;
+       
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.p-header {
+    font-size: 1rem;
+}
+
+
+.ulskills {
+
+    display: grid;
+    gap: 20px;
+}
+
+.bg-header {
+    display: flex;
+   position: absolute;
+   height: 50%;
+   opacity: 75%;
+}
+
+.container {
+   
+     margin-bottom: 20px;
+}
+
+.certifications {
+    display: grid;
+    justify-content: center;
+}
+
+.p-header2 {
+    color: #2d353f;
+    font-size: 1rem; 
+    width: 300px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 800px) { 
+
+    body {
+        margin: 0;
+        padding: 0;
+           
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .p-header {
+        font-size: 1.5rem;
+    }
+    
+    .ulskills {
+        display: block
+  
+    }
+    
+    .bg-header {
+        display: flex;
+       position: absolute;
+       height: 100%;
+       opacity: 55%;
+    }
+    
+    .container {
+       
+         margin-bottom: 200px;
+         
+    }
+    
+    .certifications {
+        display: grid;
+        justify-content: center;
+    }
+
+    .li {
+      display: block;
+    }
+
+    .p-header2 {
+        color: #2d3442;
+        font-size: 1rem; 
+        width: 350px;
+        padding-bottom: 50px;
+          }
+    
+    }
